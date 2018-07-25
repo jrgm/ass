@@ -12,13 +12,13 @@
   "dependencies": {
     "async": "0.9.2",
     "blanket": "1.1.7",
-    "cheerio": "0.14.0",
+    "cheerio": "0.22.0",
     "temp": "0.8.1"
   },
   "devDependencies": {
-    "mocha": "2.2.5",
+    "jshint": "^2.9.5",
+    "mocha": "5.2.0",
     "should": "6.0.3",
-    "jshint": "2.7.0",
     "walk": "2.3.9"
   },
   "scripts": {
