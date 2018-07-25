@@ -10,12 +10,9 @@ node_js:
 # platform-specific binary dependencies.
 before_install:
   - sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
-  # required for nodejs 0.8.x - https://github.com/jshint/jshint/issues/1681
-  - npm install -g npm
 
 notifications:
   email:
-    - lloyd@hilaiel.com
     - jrgmorrison@gmail.com
 
 script:
